@@ -1,0 +1,87 @@
+body{
+    background-color: darksalmon;
+    margin: 0px;
+}
+/* -------------Title------------- */
+#title{
+    font-family: fantasy;
+}
+
+/* -------------Heading------------- */
+#heading{
+    text-align: center;
+}
+.header{
+    padding-bottom: 15px;
+    background-image:url("https://media.vanityfair.com/photos/5b16c93863b65d128d354850/16:9/w_2160,h_1215,c_limit/Jurassic-Park-Fallen-Kingdom-Lawson-Review.jpg");
+    background-size: cover;
+}
+button{
+background-color: rgb(255, 197, 89);
+height: 40px;
+width: 100px;
+border-radius: 8px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    background-color: rgb(255, 186, 58);
+}
+/* -------------Info------------- */
+#info{
+    margin-top: 50px;
+    text-align: center;
+}
+#info button{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+img{
+    width: 25%;
+    height: 34vh;
+    border-radius: 7px;
+}
+#images{
+    margin-top: 20px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Memberships{
+    text-align: center;
+}
+#classic{
+    background-color: coral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 30%;
+    height: 50vh;
+    border-radius: 10px;
+}
+#Awesome{
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 30%;
+    height: 50vh;
+    border-radius: 10px;
+}
+#Ultimate{
+    background-color: darkkhaki;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 30%;
+    height: 50vh;
+    border-radius: 10px;
+}
+.flex-container{
+display: flex;
+justify-content: space-between;
+text-align: center;
+margin: 20px;
+}
+.membership-button{
+    background-color: rgb(202, 255, 237);
+}
+.membership-button:hover{
+    background-color: rgb(137, 252, 214);
+}
